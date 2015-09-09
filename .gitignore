@@ -1,6 +1,5 @@
 #UNAVAILLABLE
 /nbproject
-/var
 /media
 /shell
 /magimprt
@@ -27,3 +26,8 @@
 /index.php.sample
 /php.ini.sample
 /skin
+#AVAILLABLE
+
+/var/import/parse/.git
+/var/import/parse/nbproject
+/var/import/parse/.gitignore
