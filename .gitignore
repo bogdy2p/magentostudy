@@ -25,7 +25,7 @@
 /get.php
 /index.php.sample
 /php.ini.sample
-/skin
+#/skin
 /var/cache
 /var/session
 /var/import/parse/.git
