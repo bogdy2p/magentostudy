@@ -6,16 +6,18 @@ require_once 'app/Mage.php';
 
 Mage::app();
 
-
-//$product = Mage::getModel('catalog/product')->load(393);
-
+$price_amount = 50;
 
 $products = Mage::getModel('catalog/product')->getCollection()
     ->addAttributeToSelect('name')
-    ->addFieldToFilter('price', array('lt' => 50));
+    ->addFieldToFilter('price', array('lt' => $price_amount+1));
+
+$results_number =  count($products);
 
 
+echo "There are $results_number Products under price $price_amount = >";
 foreach ($products as $product) {
+  echo "<br />";
   echo ($product->getName());
 }
 
