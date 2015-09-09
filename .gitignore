@@ -26,8 +26,10 @@
 /index.php.sample
 /php.ini.sample
 /skin
-#AVAILLABLE
-
+/var/cache
+/var/session
 /var/import/parse/.git
 /var/import/parse/nbproject
 /var/import/parse/.gitignore
+/var/package
+#AVAILLABLE
