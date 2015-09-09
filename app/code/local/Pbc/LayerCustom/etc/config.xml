@@ -1,0 +1,19 @@
+<config>
+    <global>
+        
+    </global>
+    
+    
+    
+    <frontend>
+        <routers>
+            <Pbc_LayerCustom>
+                <use>standard</use>
+                <args>
+                    <module>Pbc_LayerCustom</module>
+                    <frontName>layercustom</frontName>
+                </args>
+            </Pbc_LayerCustom>
+        </routers>
+    </frontend>
+</config>

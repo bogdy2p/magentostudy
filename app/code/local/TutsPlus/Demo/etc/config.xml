@@ -1,0 +1,45 @@
+<config>
+    <global>
+        <models>
+            <demo>
+                <class>TutsPlus_Demo_Model</class>
+            </demo>
+        </models>
+        
+        <blocks>
+            <demo>
+                <class>TutsPlus_Demo_Block</class>
+            </demo>
+        </blocks>
+        
+        <helpers>
+            <demo>
+                <class>TutsPlus_Demo_Helper</class>
+            </demo>
+        </helpers>
+        <events>
+            <customer_login>
+                <observers>
+                    <demo>
+                        <type>model</type>
+                        <class>demo/observer</class>
+                        <method>logCustomer</method>
+                    </demo>
+                </observers>
+            </customer_login>
+        </events>
+    </global>
+    
+    
+    <frontend>
+        <routers>
+            <TutsPlus_demo>
+                <use>standard</use>
+                <args>
+                    <module>TutsPlus_Demo</module>
+                    <frontName>demo</frontName>
+                </args>
+            </TutsPlus_demo>
+        </routers>
+    </frontend>
+</config>

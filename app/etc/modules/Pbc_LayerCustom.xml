@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Pbc_LayerCustom>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Pbc_LayerCustom>
+    </modules>
+</config>

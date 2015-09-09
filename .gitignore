@@ -8,8 +8,8 @@
 /js
 /downloader
 /dev
-/.htaccess
-/app
+#/.htaccess
+#/app
 /includes
 /install.php
 /cron.php
