@@ -27,7 +27,7 @@
 /php.ini.sample
 #/skin
 /var/cache
-/var/session
+/var/session/*
 /var/import/parse/.git
 /var/import/parse/nbproject
 /var/import/parse/.gitignore
