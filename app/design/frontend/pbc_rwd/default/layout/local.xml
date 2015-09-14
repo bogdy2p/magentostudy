@@ -31,6 +31,11 @@
                 <stylesheet>css/flexslider.css</stylesheet>
             </action>
         </reference>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/pbc_custom_css.css</stylesheet>
+            </action>
+        </reference>
     </default>
 
 </layout>

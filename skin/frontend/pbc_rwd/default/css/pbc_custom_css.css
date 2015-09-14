@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2015, 2:15:14 PM
+    Author     : pbc
+*/
+
+.pbc_attributes_container{
+    /*border: 1px solid red;*/
+     line-height: 1.6em;
+}
+
+.pbc_attribute_label{
+    font-weight: bold;
+    width: 50%;
+    float:left;
+    background: #CCFFD9;;
+}
+
+.pbc_attribute_value{
+    width: 50%; 
+    background: #FFFDD9;
+    float:left; 
+}
