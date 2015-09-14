@@ -1628,3 +1628,11 @@
 [5] /var/www/html/magentostudy/app/Mage.php:685
 [6] /var/www/html/magentostudy/index.php:84
 </pre>
+2015-09-14T12:43:20+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>

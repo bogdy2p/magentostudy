@@ -1,10 +1,16 @@
 <config>
+    <modules>
+        <Pbc_LayerCustom>
+            <version>1.0.0.0</version>
+        </Pbc_LayerCustom>
+    </modules>
     <global>
-        
+        <blocks>
+            <Pbc_LayerCustom>
+                <class>Pbc_LayerCustom_Block</class>
+            </Pbc_LayerCustom>
+        </blocks>
     </global>
-    
-    
-    
     <frontend>
         <routers>
             <Pbc_LayerCustom>

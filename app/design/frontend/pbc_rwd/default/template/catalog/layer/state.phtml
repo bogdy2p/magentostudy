@@ -34,31 +34,36 @@
 <?php
 $_filters = $this->getActiveFilters();
 $_renderers = $this->getParentBlock()->getChild('state_renderers');
+
 ?>
 
-
-
 <?php if(!empty($_filters)): ?>
-
 <div class="currently">
-    
+      
    
-    <p class="block-subtitle"><?php echo $this->__('Currently Shopping by:') ?></p>
+    <p class="block-subtitle"><?php echo $this->__('Currently Shopping by:')?></p>
+    <?php 
+    
+//      var_dump($_filters);
+    
+//    die('dead a little');?>
+    
     <ol>
     <?php foreach ($_filters as $_filter): ?>
         
         <?php if ($_renderers != null): ?>
         <?php
+        
         $_rendered = false;
-        foreach ($_renderers as $_rendererName):
-            $_renderer = $this->getParentBlock()->getChild('state_renderers')->getChild($_rendererName);
-            if (method_exists($_renderer, 'shouldRender') && $_renderer->shouldRender($_filter)):
-                $_renderer->setFilter($_filter);
-                echo $_renderer->toHtml();
-                $_rendered = true;
-                break;
-            endif;
-        endforeach;
+//        foreach ($_renderers as $_rendererName):
+//            $_renderer = $this->getParentBlock()->getChild('state_renderers')->getChild($_rendererName);
+//            if (method_exists($_renderer, 'shouldRender') && $_renderer->shouldRender($_filter)):
+//                $_renderer->setFilter($_filter);
+//                echo $_renderer->toHtml();
+//                $_rendered = true;
+//                break;
+//            endif;
+//        endforeach;
 
         if (!$_rendered):
         ?>

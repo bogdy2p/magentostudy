@@ -33,11 +33,21 @@
 /* @var $this Mage_Catalog_Block_Product_List */
 ?>
 <?php
+
+
+
 $_productCollection = $this->getLoadedProductCollection();
 
 $_helper = $this->helper('catalog/output');
 ?>
-<?php if (!$_productCollection->count()): ?>
+
+<?php 
+
+//  if(!$_productCollection) die("there is no product collection loaded");
+?>
+
+
+<?php  if (!$_productCollection->count()): ?>
   <p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
 <?php else: ?>
   <div class="category-products">
