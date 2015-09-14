@@ -1564,3 +1564,67 @@
 2015-09-04T10:44:31+00:00 ERR (3): Warning: unlink(/var/www/html/magentostudy/var/import/parse/files_logs/inputs_from_ftp/Output_1441363426.csv): No such file or directory  in /var/www/html/magentostudy/var/import/parse/pbcmagmi.php on line 459
 2015-09-04T12:27:12+00:00 ERR (3): Notice: Undefined variable: config  in /var/www/html/magentostudy/var/import/parse/pbcmagmi.php on line 404
 2015-09-04T12:27:12+00:00 ERR (3): Notice: Undefined variable: config  in /var/www/html/magentostudy/var/import/parse/pbcmagmi.php on line 526
+2015-09-14T07:06:07+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:07+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:07+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:07+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:19+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:19+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:19+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>
+2015-09-14T07:06:19+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /var/www/html/magentostudy/lib/Zend/Controller/Response/Abstract.php:768
+[2] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /var/www/html/magentostudy/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /var/www/html/magentostudy/app/code/core/Mage/Core/Model/App.php:365
+[5] /var/www/html/magentostudy/app/Mage.php:685
+[6] /var/www/html/magentostudy/index.php:84
+</pre>

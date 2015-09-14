@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <default>
+        <remove name="footer.newsletter"/>
+        <remove name="right.reports.product.viewed"/>
+        <remove name="catalog.compare.sidebar"/>
+        
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jQuery.js</name>
+            </action>
+        </reference>
+          <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/script.js</name>
+            </action>
+        </reference>
+        <!--PENTRU FLEXSLIDER-->
+         <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery.flexslider-min.js</name>
+            </action>
+        </reference>
+         <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/flexslider.css</stylesheet>
+            </action>
+        </reference>
+    </default>
+
+</layout>
+

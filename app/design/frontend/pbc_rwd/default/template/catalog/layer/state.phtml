@@ -34,9 +34,12 @@
 <?php
 $_filters = $this->getActiveFilters();
 $_renderers = $this->getParentBlock()->getChild('state_renderers');
-
 ?>
+
+
+
 <?php if(!empty($_filters)): ?>
+
 <div class="currently">
     
    
@@ -46,7 +49,6 @@ $_renderers = $this->getParentBlock()->getChild('state_renderers');
         
         <?php if ($_renderers != null): ?>
         <?php
-        
         $_rendered = false;
         foreach ($_renderers as $_rendererName):
             $_renderer = $this->getParentBlock()->getChild('state_renderers')->getChild($_rendererName);
